@@ -6,3 +6,5 @@ Practice some samples of spider
 qsbk模块里的QSBK类是用来获取糗事百科的热门段子的
 
 bdtbspider用来爬去百度贴吧帖子内容
+
+iask用来爬取新浪某类问题的所有问题和所有答案，并存入mysql数据库，后续加上通过Flaskr显示的功能----2017/7/12
