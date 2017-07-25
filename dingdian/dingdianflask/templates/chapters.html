@@ -1,0 +1,7 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+	{% for status,chaptertitle in chapters.results %}
+		<h3>{{ chaptertitle }}</h3>
+	{% endfor %}
+</div>
+{% endblock %}

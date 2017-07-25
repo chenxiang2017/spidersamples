@@ -1,0 +1,7 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+{% for book in books.books %}
+<h2><a href="{{url_for('list_books',book=book)}}">{{ book }}</a><h2>
+{% endfor %}
+</div>
+{% endblock %}
